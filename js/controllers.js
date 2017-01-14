@@ -6,6 +6,7 @@ angular.module('angularClassroomApp')
 .controller('HomeCtrl', function ($scope, $rootScope, categoryService) {
 $rootScope.tab = 1;
 $scope.categories = categoryService.categories;
+$scope.strict = true;
 });
 angular.module('angularClassroomApp')
 .controller('ProductsCtrl', function ($scope,$rootScope, productService) {

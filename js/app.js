@@ -27,6 +27,9 @@ var angularClassroomApp =angular.module('angularClassroomApp', [
 	.when('/products/:productId', {
 templateUrl: 'view/productdetailstab.html',
 controller: 'ProductDetailsCtrl'
-})
+}).
+	otherwise({
+    redirectTo: '/home'
+  })
 
 });

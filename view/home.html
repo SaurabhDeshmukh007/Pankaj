@@ -81,16 +81,16 @@
 
 				<div class="search-row">	
 					<div class="col-md-3 col-sm-3 col-xs-12 pad-l-none form-group">
-						<input type="text" ng-model="category.id" class="form-control heading-two" placeholder="ID Search">
+						<input type="text" ng-model="cate.id" class="form-control heading-two" placeholder="ID Search">
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 form-group">
-						<input type="text" ng-model="category.name"class="form-control heading-two" placeholder="Name Search">
+						<input type="text" ng-model="cate.name"class="form-control heading-two" placeholder="Name Search">
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 form-group">
-						<input type="text" ng-model="category.status" class="form-control heading-two" placeholder="Status Search">
+						<input type="text" ng-model="cate.status" class="form-control heading-two" placeholder="Status Search">
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 pad-r-none form-group">
-						<input type="text" ng-model="category.comment" class="form-control heading-two" placeholder="Comment Search">
+						<input type="text" ng-model="cate.comment" class="form-control heading-two" placeholder="Comment Search">
 					</div>
 				</div>
 
@@ -104,7 +104,7 @@
 				      </tr>
 				    </thead>
 				    <tbody class="heading-three">
-				 <tr ng-repeat="category in categories | filter:category:strict">
+				 <tr ng-repeat="category in categories | filter:cate:strict">
 				      <td>{{category.id}}</td>
 <td>{{category.name}}</td>
 <td>{{category.status}}</td>
