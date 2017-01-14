@@ -1,0 +1,20 @@
+
+
+	
+		<!-- About Us -->
+		<div class="container about-us">
+			<div class="col-md-12 col-sm-12 col-xs-12 about-content">
+				<div class="products-content">
+<div class="col-md-4 col-sm-4 col-xs-12 product" ng-repeat="product in products">
+<img src="images/tab1.png" class="col-md-4 col-sm-4 col-xs-4 pull-left">
+<div class="col-md-8 col-sm-8 col-xs-8 prod-nm-price">
+<p class="heading-two p-name">{{product.name}}</p>
+<p class="heading-three">{{product.price | currency}}</p>
+</div>
+<p class="col-md-10 col-sm-10 col-xs-10 heading-three p-descp">
+{{product.description | limitTo:100}}
+</p>
+<p class="pull-right heading-four r-more"><a ng-href="#/products/{{product.id}}">Read More</a></p>
+</div>
+</div>
+				

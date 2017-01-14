@@ -1,0 +1,49 @@
+
+		<!-- About Us -->
+		<div class="container about-us contact">
+			<div class="col-md-12 col-sm-12 col-xs-12 about-content">
+				<div class="products-content">
+					<form name="form" novalidate="">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<label class="col-md-4 col-sm-4 col-xs-12 heading-two">Name : </label>
+							<div class="col-md-4 col-sm-4 col-xs-12 form-group">
+								<input type="text" ng-model="user.name" name="uName" class="form-control heading-two" placeholder="Name" required="">
+								<div ng-show="form.$submitted || form.uName.$touched">
+								<div ng-show="form.uName.$error.required">Please provide your name.</div>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<label class="col-md-4 col-sm-4 col-xs-12 heading-two">Mail Id : </label>
+							<div class="col-md-4 col-sm-4 col-xs-12 form-group">
+								<input type="email" ng-model="user.email" name="uEmail" class="form-control heading-two" placeholder="Mail id" required="">
+								<div ng-show="form.$submitted || form.uEmail.$touched">
+								<span ng-show="form.uEmail.$error.required">Please provide your email.</span>
+								<span ng-show="form.uEmail.$error.email">This is not a valid email.</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<label class="col-md-4 col-sm-4 col-xs-12 heading-two">Comment : </label>
+							<div class="col-md-4 col-sm-4 col-xs-12 form-group">
+								<textarea class="form-control heading-two" ng-model="user.comment" name="uComment" placeholder="Comments" required=""></textarea>
+								<div ng-show="form.$submitted || form.uComment.$touched">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 btn-div">
+							<button class="btn btn-primary col-md-5 col-sm-5 col-xs-12 pull-left" type="submit">Submit</button>
+							<button class="btn btn-default col-md-5 col-sm-5 col-xs-12 pull-left" type="reset">Cancel</button>
+						</div>
+					</form>	
+				</div>
+				
+			</div>
+
+			<div class="col-md-12 col-sm-12 col-xs-12 footer">
+				&copy Copyright by DESS. All rights reserved.
+			</div>
+		</div>
+	</div>  

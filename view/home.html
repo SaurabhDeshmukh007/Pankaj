@@ -1,0 +1,124 @@
+
+	
+	<!--HEADER STARTS-->
+<nav class="navbar navbar-default header-top"> 
+      <div class="container">
+        <!--Project Name-->
+        <div class="navbar-header col-xs-7">
+          <a class="navbar-brand heading-header " href="#">Project name</a>
+        </div>
+
+        <!--Language Selection section-->
+        <div class="nav navbar-nav navbar-right col-xs-5">
+        	<select class="heading-two">
+        		<option>English</option>
+        		<option>Japanese</option>
+        	</select>
+        </div>         
+      </div>
+   </nav> 
+	 
+
+	<!--Menus starts-->
+	<div class="container content">
+		<div class="container menu-container heading-one">
+	      <ul class="nav navbar-nav">
+				<li ng-class="{'active': tab==1}"><a href="#/home" class="heading-one">Home</a></li>
+				<li ng-class="{'active': tab==2}"><a href="#/products" class="heading-one">Products</a></li>
+				<li ng-class="{'active': tab==3}"><a href="#/contact" class="heading-one">Contact Us</a></li>
+				</ul>
+	    </div>    
+
+	    <!--Carousal starts-->
+	    <div class="container carousal-content">
+		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		      <li data-target="#myCarousel" data-slide-to="3"></li>
+		    </ol>
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner" role="listbox">
+		      <div class="item">
+		        <img src="images/tab.jpg" alt="books" >
+		      </div>
+		      <div class="item active">
+		        <img src="images/electronics.jpg" alt="electronics" >
+		      </div>
+
+		      <div class="item">
+		        <img src="images/fasttrack.jpg" alt="books" >
+		      </div>
+
+		      <div class="item">
+		        <img src="images/book.jpg" alt="books" >
+		      </div>
+		    
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+
+		<!-- About Us -->
+		<div class="container about-us">
+			<div class="col-md-12 col-sm-12 col-xs-12 about-content">
+				<p class="col-md-12 col-sm-12 col-xs-12 row heading-one pull-left">About us</p>
+				<div class="heading-three">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+				</div>	
+
+				<div class="search-row">	
+					<div class="col-md-3 col-sm-3 col-xs-12 pad-l-none form-group">
+						<input type="text" ng-model="category.id" class="form-control heading-two" placeholder="ID Search">
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12 form-group">
+						<input type="text" ng-model="category.name"class="form-control heading-two" placeholder="Name Search">
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12 form-group">
+						<input type="text" ng-model="category.status" class="form-control heading-two" placeholder="Status Search">
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12 pad-r-none form-group">
+						<input type="text" ng-model="category.comment" class="form-control heading-two" placeholder="Comment Search">
+					</div>
+				</div>
+
+				<table class="table table-striped">
+				    <thead class="header-back">
+				      <tr>
+				        <th>ID</th>
+				        <th>Name</th>
+				        <th>Status</th>
+				        <th>Comment</th>	
+				      </tr>
+				    </thead>
+				    <tbody class="heading-three">
+				 <tr ng-repeat="category in categories | filter:category:strict">
+				      <td>{{category.id}}</td>
+<td>{{category.name}}</td>
+<td>{{category.status}}</td>
+<td>{{category.comment}}</td>
+</tr>
+</tbody>
+</table>
+				</table>
+			</div>
+		
+			<div class="col-md-12 col-sm-12 col-xs-12 footer">
+				&copy Copyright by DESS. All rights reserved.
+			</div>
+		</div>
+	</div>  
+
+

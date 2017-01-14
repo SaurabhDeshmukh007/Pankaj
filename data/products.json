@@ -1,0 +1,186 @@
+[{
+		id: 101,
+		name: 'Tablet 1.6GTR',
+		description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.',
+		price: 20999,
+		category: 'tab',
+		images: [{
+			id: 1,
+			path: 'images/tab1.png'
+		},
+		{
+			id: 2,
+			path: 'images/tab1.png'
+		},
+		{
+			id: 3,
+			path: 'images/tab1.png'
+		}],
+		properties: [{
+			name: 'Prop1',
+			description: 'Description1'
+		},
+		{
+			name: 'Prop2',
+			description: 'Description2'
+		},
+		{
+			name: 'Prop3',
+			description: 'Description3'
+		}]
+	},
+	{
+		id: 102,
+		name: 'Laser Printer v2',
+		description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.',
+		price: 10999,
+		category: 'printer',
+		images: [{
+			id: 1,
+			path: 'images/printer1.png'
+		},
+		{
+			id: 2,
+			path: 'images/printer2.png'
+		},
+		{
+			id: 3,
+			path: 'images/printer3.png'
+		}],
+		properties: [{
+			name: 'Prop1',
+			description: 'Description1'
+		},
+		{
+			name: 'Prop2',
+			description: 'Description2'
+		},
+		{
+			name: 'Prop3',
+			description: 'Description3'
+		}]
+	},
+	{
+		id: 103,
+		name: 'Router',
+		description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.',
+		price: 299,
+		category: 'router',
+		images: [{
+			id: 1,
+			path: 'images/router1.png'
+		},
+		{
+			id: 2,
+			path: 'images/router2.png'
+		},
+		{
+			id: 3,
+			path: 'images/router3.png'
+		}],
+		properties: [{
+			name: 'Prop1',
+			description: 'Description1'
+		},
+		{
+			name: 'Prop2',
+			description: 'Description2'
+		},
+		{
+			name: 'Prop3',
+			description: 'Description3'
+		}]
+	},
+	{
+		id: 104,
+		name: 'Toolkit',
+		description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.',
+		price: 299,
+		category: 'kit',
+		images: [{
+			id: 1,
+			path: 'images/kit1.png'
+		},
+		{
+			id: 2,
+			path: 'images/kit2.png'
+		},
+		{
+			id: 3,
+			path: 'images/kit3.png'
+		}],
+		properties: [{
+			name: 'Prop1',
+			description: 'Description1'
+		},
+		{
+			name: 'Prop2',
+			description: 'Description2'
+		},
+		{
+			name: 'Prop3',
+			description: 'Description3'
+		}]
+	},
+	{
+		id: 105,
+		name: 'Tablet 1.6GTR',
+		description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.',
+		price: 2099,
+		category: 'tab',
+		images: [{
+			id: 1,
+			path: 'images/tab1.png'
+		},
+		{
+			id: 2,
+			path: 'images/tab1.png'
+		},
+		{
+			id: 3,
+			path: 'images/tab1.png'
+		}],
+		properties: [{
+			name: 'Prop1',
+			description: 'Description1'
+		},
+		{
+			name: 'Prop2',
+			description: 'Description2'
+		},
+		{
+			name: 'Prop3',
+			description: 'Description3'
+		}]
+	},
+	{
+		id: 106,
+		name: 'Tablet 1.6GTR',
+		description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.',
+		price: 2099,
+		category: 'tab',
+		images: [{
+			id: 1,
+			path: 'images/tab1.png'
+		},
+		{
+			id: 2,
+			path: 'images/tab1.png'
+		},
+		{
+			id: 3,
+			path: 'images/tab1.png'
+		}],
+		properties: [{
+			name: 'Prop1',
+			description: 'Description1'
+		},
+		{
+			name: 'Prop2',
+			description: 'Description2'
+		},
+		{
+			name: 'Prop3',
+			description: 'Description3'
+		}]
+	}]

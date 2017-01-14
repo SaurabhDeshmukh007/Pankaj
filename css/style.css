@@ -1,0 +1,219 @@
+body{padding-bottom: 20px;}
+/*padding none*/
+.pad-r-none{padding-right: 0px;}
+.pad-l-none{padding-left: 0px;}
+
+.navbar{margin-bottom: 0px;}
+.navbar .navbar-default{
+/*  height: 95px;*/
+
+}
+
+.nav.navbar-right{
+    padding-top: 5px;
+    padding-right: 0px;
+    float: right;
+  }
+.nav.navbar-right select{
+    float: right;
+    padding-right: 20px;
+    border: 2px solid #006CB4;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-image: url(../images/select-down.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    color: #006CB4;
+    width: 102px;
+  }
+
+.navbar-default .navbar-brand{
+	font-weight: bold;
+  color:#fff;
+  padding-left: 0px;
+}
+}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{
+  background-color: #006CB4;
+  color:#fff;
+}
+.navbar.navbar-default .container:first-child{padding-left: 0px;}
+
+.heading-header{font-size: 18px;}
+.heading-one{font-size: 16px;}
+.heading-two{font-size: 14px;}
+.heading-three{font-size: 12px;}
+.heading-four{font-size: 10px;}
+
+.nav.navbar-right {  padding-top: 12px;}
+
+.navbar-right select{
+  height: 26px;
+}
+
+.header-top{box-shadow:0px 7px 14px rgb(136, 136, 136) !important;background-color: #027CD5;}
+
+.container.content{margin-top: 11px;padding-left: 0}
+/*MENU CSS*/
+.menu-container{
+	background-color: #006CB4;
+	color: #fff;
+
+}
+
+.menu-container ul li a{color: #fff;}
+.menu-container .nav > li > a:hover,.menu-container .nav > li.active > a{
+  text-decoration: none;
+  background-color: #163B54;
+}
+
+/*--Carousal starts--*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      height: 200px;
+}
+.carousel{
+  position: relative;
+  top: 3px;
+  height: 205px;
+  border: 1px solid rgb(112, 147, 189);
+}
+
+.carousel-indicators li{border: 2px solid #7596BA;}
+.carousel-indicators {
+    bottom: -8px;
+}
+.carousel-inner{
+  height: 200px;
+}
+/*About us starts*/
+
+.about-us{
+  border:2px solid #2993CA;
+  padding:2px;
+  margin-top: 8px;
+  
+}
+.about-content{
+  background-image: url(../images/about-top-back.png);
+  background-repeat: repeat-x;
+  padding-top:15px;
+}
+.about-content p:first-child{color:#051E30;}
+
+.search-row{margin-top: 15px;}
+.search-row input[type="text"]{
+  border: 1px solid #acacac;
+  border-radius:0;
+}
+.table .header-back{
+  background-color: #2993CA;
+  color: #fff;
+}
+
+.footer{
+text-align: center;
+background-color: #2993CA;
+height: 32px;
+padding-top: 7px;
+color: #fff;
+}
+
+/*products page*/
+
+.products-content{
+margin-top: 5px;
+background-color: rgb(255, 255, 255);
+float: left;
+width: 100%;
+border-radius: 10px;
+padding-top: 32px;
+}
+.products-content .product{
+  padding: 25px;
+  border: 1px dotted #acacac;
+  height: 267px;
+}
+.products-content .product img{margin-bottom: 5px;height: 108px;}
+.product .p-descp{
+  position: absolute;
+  top:145px;
+  height: 70px;
+  overflow: hidden;
+}
+.about-content .product .p-name{color:#006CB4;font-weight: bold;}
+.prod-nm-price{
+  position: absolute;
+  right: -11px;
+}
+.product .r-more{color:#006CB4;position: relative;top:207px;}
+.product:hover img,.product:hover div,.product:hover .p-descp{
+    opacity:0.5;
+    transition:opacity 0.2s linear;
+}
+.product:hover{
+    transition:border 0.1s linear;
+    border: 3px solid #006CB4;
+}
+.product:hover .r-more{
+  font-size: 14px;
+  font-weight: bold;
+}
+/*products details page*/
+
+.products-content .bread-crum{
+  margin-bottom: 15px;
+}
+.bread-crum span a.active{
+  color: #006CB4;
+}
+.bread-crum span a{
+  color:#333333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact label{
+  text-align: right;
+  padding-top:6px;
+  color: #006CB4;
+}
+
+
+.about-content p.p-dtl-name{
+color: #006CCD;
+font-weight: bold;
+border-bottom: 3px solid #CEEEFF;
+}
+.product-details .product{height: inherit;}
+.product-details .product:hover{
+  border: none;
+  transform:scale(1.2);
+  transition:transform 0.2s linear;
+  z-index: 100
+}
+.product-details .product:hover img{
+    opacity:1;
+}
+.product-details .p-descp{
+  margin-top: 10px;
+}
+
+.contact .btn-div{
+  padding-left:10px;
+}
+.btn-div .btn-primary{
+  margin-left: 10px;
+}
+.contact .about-content{
+  margin-bottom: 30px;
+}
+.btn-default{
+    margin-left: 15px;
+}

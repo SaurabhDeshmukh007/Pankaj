@@ -1,0 +1,50 @@
+
+
+		<!-- About Us -->
+		<div class="container about-us product-details">
+			<div class="col-md-12 col-sm-12 col-xs-12 about-content">
+				<div class="products-content">
+					<!-- Bread crum -->
+					<div class="col-md-12 col-sm-12 col-xs-12 bread-crum pad-r-none pad-l-none ">
+					<span class="heading-two"><a href="#/home">Home</a></span>
+					<span class="glyphicon glyphicon-menu-right"></span>
+					<span class="heading-two"><a href="#/products">Product</a></span>
+					<span class="glyphicon glyphicon-menu-right"></span>
+					<span class="heading-two"><a href="" class=" active">{{selectedProduct.name}}</a></span>
+					</div>
+					<p class="col-md-12 col-sm-12 col-xs-12 heading-one pull-left p-dtl-name pad-l-none pad-r-none">{{selectedProduct.name}}
+					<div class="col-md-4 col-sm-4 col-xs-12 product" ng-repeat="image in selectedProduct.images">
+					<img ng-src="{{image.path}}" class="col-md-12 col-sm-12 col-xs-12 pull-left">
+					</div>
+					</div>
+
+				<div class="col-md-12 col-sm-12 col-xs-12 pad-r-none pad-l-none p-descp">
+<p class="col-md-12 col-sm-12 col-xs-12 heading-one pull-left p-dtl-name pad-l-none pad-r-none">Description</p>
+<p class="heading-two">{{selectedProduct.description}}</p>
+<table class="table table-striped">
+<thead class="header-back">
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody class="heading-three">
+<tr ng-repeat="property in selectedProduct.properties">
+<td>{{property.name}}</td>
+<td>{{property.description}}</td>
+</tr>
+</tbody>
+</table>
+</div>
+			
+
+			<div class="col-md-12 col-sm-12 col-xs-12 footer">
+				&copy Copyright by DESS. All rights reserved.
+			</div>
+		</div>
+	</div>  
+</body>
+
+<script src="lib/jquery.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+</html>
